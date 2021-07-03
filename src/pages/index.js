@@ -28,7 +28,7 @@ export default function Home() {
             {products.map(product => {
               return (
                 <li key={product.id}>
-                  <img src={product.image} alt={`Card of ${product.title}`} />
+                  <Image width="864" height="1200" src={product.image} alt={`Card of ${product.title}`} />
                   <h3 className={styles.productTitle}>
                     { product.title }
                   </h3>
